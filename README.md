@@ -40,5 +40,17 @@ Status: <span style="color:green">Accepted</span>
 Tempo de execução: <span style="color:green">0.407s</span>
 
 
+# Questão 2366 - Maratona
+
+O enunciado da questão pode ser acessado clicando [aqui](https://judge.beecrowd.com/pt/problems/view/2366).
+
+Resposta da [Questão 2366](./2366.cpp).
+
+Status: <span style="color:green">Accepted</span>
+
+Tempo de execução: <span style="color:green">0.000s</span>
+
+
+
 
 
