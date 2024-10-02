@@ -6,15 +6,17 @@ Professora: Rosianni de oliveira cruz fortes. [Currículo Lattes](http://lattes.
 
 Seguem, os enunciados e as respostas de cada questão da plataforma Beecrowd, que pode ser acessada em https://judge.beecrowd.com/pt.
 
+
 ## Questão 2304 - Banco Imobiliário
 
 O enunciado da questão pode ser acessado clicando [aqui](https://judge.beecrowd.com/pt/problems/view/2304).
 
-Resposta da [Questão 2340](./2304.cpp).
+Resposta da [Questão 2304](./2304.cpp).
 
 Status: <span style="color:green">Accepted</span>
 
 Tempo de execução: <span style="color:green">0.000s</span>
+
 
 ## Questão 2340 - Feira de Bactérias
 
@@ -25,6 +27,18 @@ Resposta da [Questão 2340](./2340.cpp).
 Status: <span style="color:green">Accepted</span>
 
 Tempo de execução: <span style="color:green">0.000</span>
+
+
+# Questão 2343 - Caçadores de Mitos
+
+O enunciado da questão pode ser acessado clicando [aqui](https://judge.beecrowd.com/pt/problems/view/2343).
+
+Resposta da [Questão 2343](./2343.cpp).
+
+Status: <span style="color:green">Accepted</span>
+
+Tempo de execução: <span style="color:green">0.407s</span>
+
 
 
 
