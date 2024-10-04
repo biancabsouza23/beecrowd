@@ -156,11 +156,9 @@ O enunciado da questão pode ser acessado clicando [aqui](https://judge.beecrowd
 
 Resposta da [Questão 2479](./2479.cpp).
 
-Status: <span style="color:red">Acepted</span>
+Status: <span style="color:green">Acepted</span>
 
-Tempo de execução: <span style="color:red">1.000</span>
-
-<span style="color:red">Refazer</span>
+Tempo de execução: <span style="color:green">1.000</span>
 
 
 # Questão 2779 - Álbum da Copa (Nível 1)
