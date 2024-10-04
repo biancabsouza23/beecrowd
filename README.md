@@ -51,6 +51,17 @@ Status: <span style="color:green">Accepted</span>
 Tempo de execução: <span style="color:green">0.000s</span>
 
 
+# Questão 2409 - Colchão
+
+O enunciado da questão pode ser acessado clicando [aqui](https://judge.beecrowd.com/pt/problems/view/2409).
+
+Resposta da [Questão 2366](./2409.cpp).
+
+Status: <span style="color:green">Accepted</span>
+
+Tempo de execução: <span style="color:green">0.000s</span>
+
+
 
 
 
