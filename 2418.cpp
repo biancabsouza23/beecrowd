@@ -1,8 +1,6 @@
-#include <iostream>
-#include <iomanip>
+#include <bits/stdc++.h>
+#define endl '\n'
 using namespace std;
-#include <vector>
-#include <algorithm>
 
 int main(){
     vector <float> notas;
@@ -20,7 +18,7 @@ int main(){
     }
 
     cout << fixed << setprecision(1);
-    cout << soma << endl;
+    cout << soma << '\n';
     
     return 0;
 }

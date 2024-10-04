@@ -1,24 +1,17 @@
 #include <bits/stdc++.h>
+#define endl '\n'
 using namespace std;
 
-
 int main(){
-    ifstream inputFile("input.txt");
-    ofstream outputFile("output.txt");
-
-    if(!inputFile.is_open() || !outputFile.is_open()){
-        cout << "Error opening file" << endl;
-        return 1;
-    }
-    
-    string line;
-    while (getline(inputFile, line)){
         vector<int> nums;
-        istringstream iss(line);
-        int num, cont = 0, maior = 0, aux = 1, atual = 0, aux1 = 0;
-        // Extraí todos os inteiros da linha
-        while (iss >> num) {
+        int num, cont = 0, maior = 0, aux = 1, aux1 = 0;
+
+        while (true) {
+            cin >> num;
             nums.push_back(num);
+            if (nums.size() == (nums[0]+1)){
+                break;
+            }
         }
 
         for (int i = 1; i <= nums[0]; i++){
@@ -33,12 +26,7 @@ int main(){
                 cont = 0; 
             }
         }
-        outputFile <<  maior + 1 << endl; //saida aqui
-    }
+        cout <<  maior + 1 << endl; 
     
-    
-    inputFile.close();
-    outputFile.close();
-
     return 0;
 }

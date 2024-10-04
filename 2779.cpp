@@ -1,6 +1,6 @@
-#include <iostream>
+#include <bits/stdc++.h>
+#define endl '\n'
 using namespace std;
-#include <set>
 
 int main(){
     int total_album, num_fig_comp, fig, faltam;
@@ -13,7 +13,7 @@ int main(){
     }
 
     faltam = total_album - fig_compradas.size();
-    cout << faltam << endl;
+    cout << faltam << '\n';
     
     return 0;
 }

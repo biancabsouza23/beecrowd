@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#define endl '\n'
 using namespace std;
 
 int main(){
@@ -22,7 +23,7 @@ int main(){
         }
     }
 
-    cout << quant_carimb - cont << endl;
+    cout << quant_carimb - cont << '\n';
     
     return 0;
 }

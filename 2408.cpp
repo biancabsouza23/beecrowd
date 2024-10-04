@@ -1,6 +1,6 @@
-#include <iostream>
+#include <bits/stdc++.h>
+#define endl '\n'
 using namespace std;
-
 
 int main(){
     int num1, num2, num3, aux;
@@ -23,8 +23,7 @@ int main(){
         num2 = num3;
         num3 = aux;
     }
-    cout << num2 << endl;
+    cout << num2 << '\n';
     
-
     return 0;
 }

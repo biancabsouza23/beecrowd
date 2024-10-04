@@ -1,4 +1,5 @@
-#include <iostream>
+#include <bits/stdc++.h>
+#define endl '\n'
 using namespace std;
 
 int main(){
@@ -8,11 +9,11 @@ int main(){
     cin >> dist;
     
     if (dist <= 800){
-        cout << "1" << endl;
+        cout << "1" << '\n';
     } else if (dist <= 1400){
-        cout << "2" << endl;
+        cout << "2" << '\n';
     } else {
-        cout << "3" << endl;
+        cout << "3" << '\n';
     }
     
     return 0;

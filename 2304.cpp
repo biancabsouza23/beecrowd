@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#define endl '\n'
 using namespace std;
 
 int main(){
@@ -33,7 +34,7 @@ int main(){
         }
     }
     
-    cout << jogadores['D'] << " " << jogadores['E'] << " " << jogadores['F'] << endl;
+    cout << jogadores['D'] << " " << jogadores['E'] << " " << jogadores['F'] << '\n';
     
     return 0;
 }

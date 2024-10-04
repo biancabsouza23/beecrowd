@@ -1,6 +1,6 @@
-#include <iostream>
+#include <bits/stdc++.h>
+#define endl '\n'
 using namespace std;
-#include <cmath>
 
 float areaLajota1(int diagonal){
     float area;
@@ -20,7 +20,7 @@ int main(){
     num_lajotas2 = (comprimento_sala - 1 + largura_sala - 1) * 2;
     area_sala_sem_extremidades = area_sala - ((comprimento_sala*area_lajota1) + ((largura_sala - 1)*area_lajota1));
     num_lajotas1 = area_sala_sem_extremidades/area_lajota1;
-    cout << num_lajotas1 << endl << num_lajotas2 << endl;
+    cout << num_lajotas1 << '\n' << num_lajotas2 << '\n';
     
     return 0;
 }

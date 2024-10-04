@@ -1,29 +1,33 @@
-#include <iostream>
+#include <bits/stdc++.h>
+#define endl '\n'
 using namespace std;
-#include <vector>
 
-int main(){
-    vector <int> casas;
-    int quant_casas, soma_casas, num_casa, sum_aux = 0;
+int main() {
+    vector<int> casas;
+    int quant_casas, soma_casas, num_casa;
 
     cin >> quant_casas;
 
-    for(int i = 0; i < quant_casas; i++){
+    for (int i = 0; i < quant_casas; i++) {
         cin >> num_casa;
         casas.push_back(num_casa);
     }
 
     cin >> soma_casas;
 
-    for (int i = 0; i < quant_casas; i++){
-        for (int j = i + 1; j < quant_casas; j++){
-            sum_aux = casas[i] + casas[j];
-            if(sum_aux == soma_casas){
-                cout << casas[i] << " " << casas[j] << endl;
-                return 0;
-            }
-        } 
+    unordered_map<int, int> valores; 
+
+    for (int i = 0; i < quant_casas; i++) {
+        int complemento = soma_casas - casas[i];
+
+        
+        if (valores.find(complemento) != valores.end()) {
+            cout << complemento << " " << casas[i] << endl;
+            return 0;
+        }
+        
+        valores[casas[i]] = i;
     }
-    
+
     return 0;
 }

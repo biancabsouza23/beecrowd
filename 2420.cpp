@@ -1,6 +1,6 @@
-#include <iostream>
+#include <bits/stdc++.h>
+#define endl '\n'
 using namespace std;
-#include <vector>
 
 int main(){
     vector <int> comprimentos;
@@ -19,7 +19,7 @@ int main(){
     for(int i = 0; i < num_territ; i++){
         sum_i += comprimentos[i];
         if(sum_i == div_territ){
-            cout << i + 1 << endl;
+            cout << i + 1 << '\n';
             break;
         }
     }
