@@ -7,7 +7,7 @@ int main() {
     set<pair<int, int>> raios; 
     cin >> quant;
 
-    while (quant) {
+    while (quant) { 
 
         cin >> x >> y;
         pair<int, int> coordenada = {x, y};

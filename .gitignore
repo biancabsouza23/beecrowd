@@ -1,3 +1,8 @@
+# Configurações do Visual Studio Code
 .vscode/
-input.txt
-a.out
+
+# Arquivos executáveis C++
+*.out
+
+# Arquivos de entrada de dados
+*.txt
