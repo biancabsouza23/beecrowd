@@ -4,7 +4,7 @@ Aluna: Bianca Bastos de Souza. [Currículo Lattes](https://lattes.cnpq.br/579515
 
 Professora: Rosianni de oliveira cruz fortes. [Currículo Lattes](http://lattes.cnpq.br/0839265093321881)
 
-Seguem, os enunciados e as respostas de cada questão da plataforma Beecrowd, que pode ser acessada em https://judge.beecrowd.com/pt.
+Seguem, os enunciados e as respostas de cada questão da plataforma Beecrowd, que pode ser acessada no [link](https://judge.beecrowd.com/pt).
 
 
 ## Questão 2304 - Banco Imobiliário (Nível 2)

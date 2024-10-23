@@ -22,7 +22,7 @@ int main() {
 
         
         if (valores.find(complemento) != valores.end()) {
-            cout << complemento << " " << casas[i] << endl;
+            cout << complemento << " " << casas[i] << '\n';
             return 0;
         }
         
